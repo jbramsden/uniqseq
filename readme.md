@@ -22,7 +22,7 @@ The following examples give you the simplest way to use this package:
 		
 		import (
 			"fmt"
-			"uniqseq"
+			"github.com/jbramsden/uniqseq"
 		)
 		
 		func main() {
