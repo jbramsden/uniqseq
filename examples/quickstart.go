@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"../../uniqseq"
+	"github.com/jbramsden/uniqseq"
 )
 
 func main() {
