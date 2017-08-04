@@ -1,5 +1,7 @@
 # uniqseq
 
+[![GoDoc](https://godoc.org/github.com/jbramsden/uniqseq?status.svg)](https://godoc.org/github.com/jbramsden/uniqseq)
+
 This Golang package is used to create a unique sequence of characters that is usable by humans, e.g in a URL Shortner.
 The theory is that the sequence ["balaCJ"] is easier to remember and type into a device then 918756211 !
 
