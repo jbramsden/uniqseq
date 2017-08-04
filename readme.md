@@ -10,7 +10,7 @@ Unlike with xor-gate bjf package I have not included a way to reverse the unique
 
 ### Installation
 
-		go get github/jbramsden/uniqseq
+		go get github.com/jbramsden/uniqseq
 		
 ### Quick start
 
