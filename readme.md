@@ -75,7 +75,7 @@ This quick example uses the standard character set [a-zA-Z0-9] and sets the the 
     Continuing on from the example above, this will set the prefix character. The default is '_'
 	
 		us := uniqseq.Create()
-		us.BlankFullChar = "A"
+		us.BlankFillChar = "A"
 		//This will output AAAb
 		fmt.Print(us.Encode(1))
 		
