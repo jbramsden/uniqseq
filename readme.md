@@ -119,3 +119,7 @@ This quick example uses the standard character set [a-zA-Z0-9] and sets the the 
 			fmt.Print(nextSeq)
 		}
 
+### URL Shortener example
+
+I have added a working example of a URL Shortener using the Uniqseq package. This URL Shortener will allow a user to provide a URL to be shortern and it will provide a short url back. This short url then can be used and it will redirect a users browser to the full url. 
+This example store the short URL and full URL in a memory map, if you want to use this in production then I would suggest that you use a DB or Redis for storage instead to persist the data. 
