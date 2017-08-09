@@ -123,3 +123,6 @@ This quick example uses the standard character set [a-zA-Z0-9] and sets the the 
 
 I have added a working example of a URL Shortener using the Uniqseq package. This URL Shortener will allow a user to provide a URL to be shortern and it will provide a short url back. This short url then can be used and it will redirect a users browser to the full url. 
 This example store the short URL and full URL in a memory map, if you want to use this in production then I would suggest that you use a DB or Redis for storage instead to persist the data. 
+When a URL is sent to be shorterned, uniqseq is called for the next in the sequence, this with the URL are added to a golang map. The uniqseq value is used with the host that the form was called with to provide a short URL.
+When a user calls the short URL, it will use the url after the host and get the information from the golang map, it will use this information to provide a HTML page back that tells the browser to redict to the URL that came back from the golang map.
+
